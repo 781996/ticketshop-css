@@ -1,8 +1,7 @@
-
 /* Allgemeine Einstellungen */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://orbwaltrop-my.sharepoint.com/:i:/g/personal/soeren_backhove_orb-waltrop_de/EfwNF1F7xfdKpRdyUBRRpuoBWcx8MeYQaC2F-KjKQ9S4Mg?e=0GcjjH'); /* URL zum Hintergrundbild */
+    background-image: url('https://orbwaltrop-my.sharepoint.com/:i:/g/personal/soeren_backhove_orb-waltrop_de/EfwNF1F7xfdKpRdyUBRRpuoBWcx8MeYQaC2F-KjKQ9S4Mg?e=0GcjjH'); /* URL zu Ihrem Hintergrundbild */
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
