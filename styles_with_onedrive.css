@@ -1,0 +1,103 @@
+
+/* Allgemeine Einstellungen */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://orbwaltrop-my.sharepoint.com/:i:/g/personal/soeren_backhove_orb-waltrop_de/EfwNF1F7xfdKpRdyUBRRpuoBWcx8MeYQaC2F-KjKQ9S4Mg?e=0GcjjH'); /* URL zum Hintergrundbild */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Ticketbereich Styling */
+.tickets-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Leicht transparente Box für bessere Lesbarkeit */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Überschrift Styling */
+.tickets-container h1 {
+    text-align: center;
+    color: #2E7D32;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+/* Ticketoptionen Styling */
+.ticket-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticket-option:last-child {
+    border-bottom: none;
+}
+
+.ticket-option span {
+    font-size: 18px;
+}
+
+.ticket-option select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ticket-option .price {
+    font-weight: bold;
+    color: #2E7D32;
+}
+
+/* Kaufzeit Styling */
+.ticket-phase {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Buttons Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #2E7D32;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1B5E20;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tickets-container {
+        padding: 10px;
+    }
+
+    .ticket-option span {
+        font-size: 16px;
+    }
+
+    .ticket-option select {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
